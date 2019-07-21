@@ -33,7 +33,7 @@ Background: dark
 # Color name                GUI                  Base256    Base16
 Color: black                rgb( 28,  28,  29)   234        Black
 Color: red                  rgb(215,  95,  95)   167        DarkRed
-Color: green                rgb( 66, 166,  71)   71         DarkGreen
+Color: green                rgb( 95, 135,   0)   64         DarkGreen
 Color: yellow               rgb(201, 131,  81)   173        DarkYellow
 Color: blue                 rgb( 70, 112, 216)   26         DarkBlue
 Color: magenta              rgb(210,  78, 155)   169        DarkMagenta
@@ -60,13 +60,13 @@ Variant: 256 8
 #if get(g:, '@optionprefix_transp_bg', 0)
 Variant: gui 256 8
     Normal           brightwhite       none
-    CursorLineNr     brightwhite       none
+    CursorLineNr     green             none
     FoldColumn       white             none
     LineNr           white             none
     Terminal         brightwhite       none
 #else
     Normal           brightwhite       black
-    CursorLineNr     brightwhite       brightblack
+    CursorLineNr     white             black
     FoldColumn       white             brightblack
     LineNr           white             brightblack
     Terminal         brightwhite       black
@@ -81,7 +81,7 @@ DiffAdd              brightgreen       black             reverse
 DiffChange           yellow            brightwhite       reverse
 DiffDelete           red               brightwhite       reverse
 DiffText             green             brightwhite       bold,reverse
-Directory            brightgreen       none
+Directory            green             none
 EndOfBuffer          brightblack       none
 ErrorMsg             red               brightwhite       reverse
 Folded               white             brightblack       italic
@@ -95,7 +95,7 @@ PmenuSbar            brightblack       brightblack
 PmenuSel             brightwhite       yellow
 PmenuThumb           brightblack       yellow
 Question             white             none
-Search               yellow            brightwhite       reverse
+Search               green             brightwhite       reverse
 SignColumn           white             none
 SpecialKey           white             none
 SpellBad             red               none              s=red t=underline g=undercurl
@@ -153,6 +153,10 @@ InsertMode           brightgreen       black             reverse
 ReplaceMode          yellow            black             reverse
 VisualMode           blue              brightwhite       reverse
 CommandMode          magenta           brightwhite       reverse
+# }}}
+
+# Quickfix highlight groups {{{
+qfLineNr             green             white             reverse
 # }}}
 
 # NeoVim {{{
