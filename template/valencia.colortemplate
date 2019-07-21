@@ -31,7 +31,7 @@ Background: dark
 
 # Color palette {{{
 # Color name                GUI                  Base256    Base16
-Color: black                rgb( 28,  28,  28)   234        Black
+Color: black                rgb( 28,  28,  29)   234        Black
 Color: red                  rgb(230,  69,  71)   167        DarkRed
 Color: green                rgb( 66, 166,  71)   71         DarkGreen
 Color: yellow               rgb(201, 131,  81)   173        DarkYellow
