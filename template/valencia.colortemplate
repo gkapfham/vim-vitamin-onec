@@ -34,7 +34,7 @@ Background: dark
 Color: black                rgb( 28,  28,  29)   234        Black
 Color: red                  rgb(215,  95,  95)   167        DarkRed
 Color: green                rgb( 95, 135,   0)   64         DarkGreen
-Color: yellow               rgb(201, 131,  81)   173        DarkYellow
+Color: yellow               rgb(175, 175,  95)   143        DarkYellow
 Color: blue                 rgb( 70, 112, 216)   26         DarkBlue
 Color: magenta              rgb(210,  78, 155)   169        DarkMagenta
 Color: cyan                 rgb(100, 135, 143)   66         DarkCyan
@@ -74,7 +74,7 @@ Variant: gui 256 8
 # Group              Foreground        Background        Attributes
 ColorColumn          none              brightblack
 Conceal              cyan              none
-Cursor               brightwhite       blue
+Cursor               yellow            none
 CursorColumn         none              brightblack
 CursorLine           none              brightblack
 DiffAdd              brightgreen       black             reverse
@@ -87,14 +87,14 @@ ErrorMsg             red               brightwhite       reverse
 Folded               white             brightblack       italic
 IncSearch            magenta           brightwhite       t=reverse g=standout
 MatchParen           brightblack       yellow            bold,reverse
-ModeMsg              brightwhite       none
-MoreMsg              white             none
+ModeMsg              yellow            none
+MoreMsg              yellow            none
 NonText              brightwhite       none
 Pmenu                black             cyan
 PmenuSbar            brightblack       brightblack
 PmenuSel             brightwhite       yellow
 PmenuThumb           brightblack       yellow
-Question             white             none
+Question             yellow            none
 Search               green             brightwhite       reverse
 SignColumn           white             none
 SpecialKey           white             none
@@ -131,12 +131,12 @@ Label                green             none
 Number               red               none
 Operator             brightcyan        none
 PreProc              magenta           none
-Special              magenta           none
+Special              yellow            none
 SpecialChar          magenta           none
 SpecialComment       red               none
 Statement            cyan              none
 StorageClass         brightcyan        none
-String               brightgreen       none
+String               yellow            none
 Structure            red               none
 Todo                 magenta           none              bold
 Type                 brightmagenta     none
