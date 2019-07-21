@@ -32,7 +32,7 @@ Background: dark
 # Color palette {{{
 # Color name                GUI                  Base256    Base16
 Color: black                rgb( 28,  28,  29)   234        Black
-Color: red                  rgb(230,  69,  71)   167        DarkRed
+Color: red                  rgb(215,  95,  95)   167        DarkRed
 Color: green                rgb( 66, 166,  71)   71         DarkGreen
 Color: yellow               rgb(201, 131,  81)   173        DarkYellow
 Color: blue                 rgb( 70, 112, 216)   26         DarkBlue
@@ -98,7 +98,7 @@ Question             white             none
 Search               yellow            brightwhite       reverse
 SignColumn           white             none
 SpecialKey           white             none
-SpellBad             brightmagenta     none              s=magenta t=underline g=undercurl
+SpellBad             red               none              s=red t=underline g=undercurl
 SpellCap             brightmagenta     none              s=magenta t=underline g=undercurl
 SpellLocal           brightmagenta     none              s=magenta t=underline g=undercurl
 SpellRare            brightmagenta     none              s=magenta t=underline g=undercurl
@@ -117,7 +117,7 @@ WildMenu             brightwhite       magenta
 Boolean              brightgreen       none
 Character            yellow            none
 Comment              white             none              italic
-Constant             yellow            none
+Constant             red               none
 Debug                magenta           none
 Delimiter            brightwhite       none
 Error                red               brightwhite       reverse
@@ -128,7 +128,7 @@ Ignore               brightwhite       none
 Include              red               none
 Keyword              cyan              none
 Label                green             none
-Number               brightgreen       none
+Number               red               none
 Operator             brightcyan        none
 PreProc              magenta           none
 Special              magenta           none
