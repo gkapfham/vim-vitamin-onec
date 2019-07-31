@@ -15,10 +15,9 @@ Include: _help.colortemplate
 
 # }}}
 
-# Common linked groups {{{
+# Common Linked Groups {{{
 
 Repeat            -> Statement
-# QuickFixLine      -> Search
 StatusLineTerm    -> StatusLine
 StatusLineTermNC  -> StatusLineNC
 Conditional       -> Statement
@@ -32,9 +31,13 @@ lCursor           -> Cursor
 
 # }}}
 
+# Only Provide Dark Theme {{{
+
 Background: dark
 
-# Color palette {{{
+# }}}
+
+# Color Palette {{{
 
 # Color name                GUI                  Base256    Base16
 
@@ -44,7 +47,9 @@ Color: green                rgb( 95, 135,   0)   64         DarkGreen
 Color: yellow               rgb(175, 175,  95)   143        DarkYellow
 Color: blue                 rgb(135, 175, 215)   110        DarkBlue
 Color: magenta              rgb(135,  95, 135)   96         DarkMagenta
-Color: cyan                 rgb(135, 175, 175)   109        DarkCyan
+# Color: cyan                 rgb(135, 175, 175)   109        DarkCyan
+# Color: cyan                 rgb(135,  215, 175)  115         DarkCyan
+Color: cyan                 rgb(175, 215, 215)   152        DarkCyan
 Color: white                rgb(118, 118, 118)   243        Gray
 Color: brightblack          rgb( 48,  48,  48)   236        Black
 Color: brightred            rgb(215,  95,  95)   167        DarkRed
@@ -52,7 +57,7 @@ Color: brightgreen          rgb( 95, 135,   0)   64         DarkGreen
 Color: brightyellow         rgb(215, 135,   0)   172        DarkYellow
 Color: brightblue           rgb(135, 175, 215)   110        DarkBlue
 Color: brightmagenta        rgb(135,  95, 135)   96         DarkMagenta
-Color: brightcyan           rgb(135, 175, 175)   109        DarkCyan
+Color: brightcyan           rgb(175, 215, 215)   152        DarkCyan
 Color: brightwhite          rgb(168, 168, 168)   248        Gray
 
 Term Colors: black red green yellow blue magenta cyan white
@@ -94,7 +99,7 @@ DiffDelete           red               black             bold
 DiffText             green             brightwhite       bold,reverse
 Directory            green             none
 EndOfBuffer          brightblack       none
-ErrorMsg             red               brightwhite       reverse
+ErrorMsg             red               black
 Folded               white             brightblack       italic
 IncSearch            none              none              reverse
 MatchParen           brightblack       brightyellow      bold
@@ -118,12 +123,12 @@ StatusLineNC         black             black             reverse
 TabLine              black             cyan
 TabLineFill          brightwhite       cyan
 TabLineSel           brightwhite       cyan
-Title                yellow            none              bold
+Title                brightwhite       none              bold
 VertSplit            white             black
 Visual               white             black             reverse
 VisualNOS            brightwhite       blue
 WarningMsg           red               none
-WildMenu             brightwhite       black
+WildMenu             magenta           black
 Boolean              brightgreen       none
 Character            yellow            none
 Comment              white             none              italic
