@@ -46,10 +46,10 @@ Color: blue                 rgb(135, 175, 215)   110        DarkBlue
 Color: magenta              rgb(135,  95, 135)   96         DarkMagenta
 Color: cyan                 rgb(135, 175, 175)   109        DarkCyan
 Color: white                rgb(118, 118, 118)   243        Gray
-Color: brightblack          rgb( 28,  28,  29)   234        Black
+Color: brightblack          rgb( 48,  48,  48)   236        Black
 Color: brightred            rgb(215,  95,  95)   167        DarkRed
 Color: brightgreen          rgb( 95, 135,   0)   64         DarkGreen
-Color: brightyellow         rgb(175, 175,  95)   143        DarkYellow
+Color: brightyellow         rgb(215, 135,   0)   172        DarkYellow
 Color: brightblue           rgb(135, 175, 215)   110        DarkBlue
 Color: brightmagenta        rgb(135,  95, 135)   96         DarkMagenta
 Color: brightcyan           rgb(135, 175, 175)   109        DarkCyan
@@ -84,7 +84,7 @@ Variant: gui 256 8
 # Group              Foreground        Background        Attributes
 
 ColorColumn          none              brightblack
-Conceal              cyan              none
+Conceal              brightyellow      none
 Cursor               yellow            none
 CursorColumn         none              brightblack
 CursorLine           none              brightblack
@@ -101,10 +101,10 @@ MatchParen           brightblack       yellow            bold,reverse
 ModeMsg              yellow            none
 MoreMsg              yellow            none
 NonText              brightwhite       none
-Pmenu                black             cyan
+Pmenu                brightwhite       brightblack
 PmenuSbar            brightblack       brightblack
-PmenuSel             brightwhite       yellow
-PmenuThumb           brightblack       yellow
+PmenuSel             brightwhite       brightblack       reverse
+PmenuThumb           brightblack       white
 Question             yellow            none
 Search               green             brightwhite       reverse
 SignColumn           white             none
@@ -113,8 +113,8 @@ SpellBad             red               none              s=red t=underline g=und
 SpellCap             brightmagenta     none              s=magenta t=underline g=undercurl
 SpellLocal           brightmagenta     none              s=magenta t=underline g=undercurl
 SpellRare            brightmagenta     none              s=magenta t=underline g=undercurl
-StatusLine           cyan              brightwhite       reverse
-StatusLineNC         cyan              black             reverse
+StatusLine           black             brightwhite       reverse
+StatusLineNC         black             black             reverse
 TabLine              black             cyan
 TabLineFill          brightwhite       cyan
 TabLineSel           brightwhite       cyan
@@ -123,7 +123,7 @@ VertSplit            brightblack       cyan
 Visual               blue              brightwhite       reverse
 VisualNOS            brightwhite       blue
 WarningMsg           red               none
-WildMenu             brightwhite       magenta
+WildMenu             brightwhite       black
 # Other conventional group names (see `:help group-name`)
 Boolean              brightgreen       none
 Character            yellow            none
@@ -134,22 +134,22 @@ Delimiter            brightwhite       none
 Error                red               brightwhite       reverse
 Float                brightgreen       none
 Function             green             none
-Identifier           brightcyan        none
+Identifier           brightblue        none
 Ignore               brightwhite       none
 Include              red               none
 Keyword              cyan              none
 Label                green             none
 Number               red               none
 Operator             brightcyan        none
-PreProc              magenta           none
+PreProc              cyan              none
 Special              yellow            none
 SpecialChar          magenta           none
 SpecialComment       red               none
-Statement            cyan              none
+Statement            blue              none
 StorageClass         brightcyan        none
 String               yellow            none
 Structure            red               none
-Todo                 magenta           none              bold
+Todo                 brightyellow      none              bold
 Type                 brightmagenta     none
 Underlined           none              none              underline
 CursorIM             none              brightwhite
