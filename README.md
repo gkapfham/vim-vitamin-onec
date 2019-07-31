@@ -22,11 +22,27 @@ will promote "fruitful" programming and writing.
 Providing both true-color and 256-color variants, **vim-vitamin-onec** supports
 Vim, Neovim, MacVim, and GVim &mdash; although the colorscheme's creator
 primarily uses Neovim. Even though it likely works in other contexts, the
-colorscheme regularly supports the creator's use of Neovim during the use of the
-following languages: CSS, HTML, Java, JavaScript, LaTeX, Markdown, Python, and
-React. Importantly, **vim-vitamin-onec** provides highlight group definitions
-for [Semshi's](https://github.com/numirias/semshi) semantic highlighting of
-Python source code.
+colorscheme regularly supports the creator's use of Neovim during the use of
+the following languages: CSS, HTML, Java, JavaScript, LaTeX, Markdown, Python,
+and React, Shell. Importantly, **vim-vitamin-onec** provides highlight group
+definitions for [Semshi's](https://github.com/numirias/semshi) semantic
+highlighting of Python source code.
+
+## Screenshots
+
+### HTML, CSS, and JavaScript
+
+![Web](.github/screenshot-html-css-js.png)
+
+### LaTeX
+
+![LaTeX](.github/screenshot-latex.png)
+
+### Python and Shell
+
+![Python](.github/screenshot-python-shell.png)
+
+## Installation
 
 If you use Plug, then you can install **vim-vitamin-onec** by using:
 
