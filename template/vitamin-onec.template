@@ -47,9 +47,6 @@ Color: green                rgb( 95, 135,   0)   64         DarkGreen
 Color: yellow               rgb(175, 175,  95)   143        DarkYellow
 Color: blue                 rgb(135, 175, 215)   110        DarkBlue
 Color: magenta              rgb(135,  95, 135)   96         DarkMagenta
-# Color: cyan                 rgb(135, 175, 175)   109        DarkCyan
-# Color: cyan                 rgb(135,  215, 175)  115         DarkCyan
-# Color: cyan                 rgb(175, 215, 175)   151        DarkCyan
 Color: cyan                 rgb(135, 175, 135)   108        DarkCyan
 Color: white                rgb(118, 118, 118)   243        Gray
 Color: brightblack          rgb( 48,  48,  48)   236        Black
