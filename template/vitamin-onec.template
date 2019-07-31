@@ -35,6 +35,7 @@ lCursor           -> Cursor
 Background: dark
 
 # Color palette {{{
+
 # Color name                GUI                  Base256    Base16
 
 Color: black                rgb( 28,  28,  29)   234        Black
@@ -43,7 +44,7 @@ Color: green                rgb( 95, 135,   0)   64         DarkGreen
 Color: yellow               rgb(175, 175,  95)   143        DarkYellow
 Color: blue                 rgb(135, 175, 215)   110        DarkBlue
 Color: magenta              rgb(135,  95, 135)   96         DarkMagenta
-Color: cyan                 rgb(175, 215, 215)   152        DarkCyan
+Color: cyan                 rgb(135, 175, 175)   109        DarkCyan
 Color: white                rgb(118, 118, 118)   243        Gray
 Color: brightblack          rgb( 28,  28,  29)   234        Black
 Color: brightred            rgb(215,  95,  95)   167        DarkRed
@@ -51,22 +52,13 @@ Color: brightgreen          rgb( 95, 135,   0)   64         DarkGreen
 Color: brightyellow         rgb(175, 175,  95)   143        DarkYellow
 Color: brightblue           rgb(135, 175, 215)   110        DarkBlue
 Color: brightmagenta        rgb(135,  95, 135)   96         DarkMagenta
-Color: brightcyan           rgb(175, 215, 215)   152        DarkCyan
+Color: brightcyan           rgb(135, 175, 175)   109        DarkCyan
 Color: brightwhite          rgb(168, 168, 168)   248        Gray
-
-
-# Color: brightblack          rgb( 53,  53,  71)   237        DarkGray
-# Color: brightred            rgb(248,  69,  71)   203        Red
-# Color: brightgreen          rgb(149, 199, 111)   150        Green
-# Color: brightyellow         rgb(239, 161, 107)   216        Yellow
-# Color: brightblue           rgb( 82, 131, 255)   69         Blue
-# Color: brightmagenta        rgb(132, 133, 206)   104        Magenta
-# Color: brightcyan           rgb(  0, 171, 165)   37         Cyan
-# Color: brightwhite          rgb(255, 255, 255)   231        White
 
 Term Colors: black red green yellow blue magenta cyan white
 Term Colors: brightblack brightred brightgreen brightyellow
 Term Colors: brightblue brightmagenta brightcyan brightwhite
+
 # }}}
 
 # Default highlight groups {{{
