@@ -2,10 +2,10 @@
 # Information {{{
 Full name:   Vitamin-Onec-Timesthree
 Short name:  vitaminonec
-Author:      Lifepillar <lifepillar@lifepillar.me>
-Website:     https://github.com/lifepillar/vim-wwdc16-theme
-Description: Colorful dark color scheme for Vim inspired by Apple's WWDC16 page
-License:     This file is placed in the public domain
+Author:      Gregory M. Kapfhammer <gkapfham@allegheny.edu>
+Website:     https://github.com/gkapfham/vim-vitamin-onec
+Description: A Dark Colorscheme for Vim and Neovim Featuring Grey and Fruity Colors
+License:     MIT License
 Neovim:      yes
 # }}}
 
