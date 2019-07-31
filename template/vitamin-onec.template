@@ -157,7 +157,7 @@ ToolbarButton        cyan              brightblack       bold
 
 # }}}
 
-# Additional highlight groups {{{
+# Statusline Highlight Groups {{{
 
 NormalMode           white             brightwhite       reverse
 InsertMode           brightgreen       black             reverse
@@ -165,8 +165,28 @@ ReplaceMode          yellow            black             reverse
 VisualMode           blue              brightwhite       reverse
 CommandMode          magenta           brightwhite       reverse
 
+# }}}
+
+# Signature Highlight Groups {{{
+
 SignatureMarkText    brightyellow      black             bold
 SignatureMarkerText  yellow            black             bold
+
+# }}}
+
+# Semshi Highlighting for Python {{{
+
+semshiLocal           red              none
+semshiGlobal          green            none              italic
+semshiImported        blue             none
+semshiParameter       blue             none
+semshiParameterUnused blue             none              underline
+semshiFree            red              none
+semshiBuiltin         green            none              underline
+semshiAttribute       cyan             none
+semshiSelf            brightblack      none
+semshiUnresolved      none             none              underline
+semshiSelected        none             none              underline,bold
 
 # }}}
 
@@ -183,5 +203,6 @@ QuickFixLine         none              brightblack
 
 TermCursor        -> Cursor
 TermCursorNC         brightwhite       white
+ExtraWhitespace      brightyellow      none
 
 # }}}
