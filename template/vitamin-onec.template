@@ -151,7 +151,7 @@ Statement            blue              none
 StorageClass         brightcyan        none
 String               yellow            none
 Structure            red               none
-Todo                 brightyellow      none              bold
+Todo                 brightyellow      none              bold,underline
 Type                 brightyellow      none
 Underlined           yellow            none              underline
 CursorIM             none              brightwhite
