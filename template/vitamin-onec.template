@@ -62,6 +62,7 @@ Term Colors: brightblue brightmagenta brightcyan brightwhite
 # }}}
 
 # Default highlight groups {{{
+
 Variant: gui
 #if get(g:, '@optionprefix_transp_bg', 0) && !has('gui_running')
 Variant: 256 8
@@ -73,13 +74,15 @@ Variant: gui 256 8
     LineNr           white             none
     Terminal         brightwhite       none
 #else
-    Normal           brightwhite       black
-    CursorLineNr     white             black
-    FoldColumn       white             brightblack
-    LineNr           white             brightblack
-    Terminal         brightwhite       black
+    Normal           brightwhite       none
+    CursorLineNr     green             none
+    FoldColumn       white             none
+    LineNr           white             none
+    Terminal         brightwhite       none
 #endif
+
 # Group              Foreground        Background        Attributes
+
 ColorColumn          none              brightblack
 Conceal              cyan              none
 Cursor               yellow            none
@@ -156,22 +159,24 @@ ToolbarButton        cyan              brightblack       bold
 # }}}
 
 # Additional highlight groups {{{
+
 NormalMode           white             brightwhite       reverse
 InsertMode           brightgreen       black             reverse
 ReplaceMode          yellow            black             reverse
 VisualMode           blue              brightwhite       reverse
 CommandMode          magenta           brightwhite       reverse
+
 # }}}
 
 # Quickfix highlight groups {{{
+
 qfLineNr             green             white             reverse
+
 # }}}
 
 # NeoVim {{{
+
 TermCursor        -> Cursor
 TermCursorNC         brightwhite       white
-# }}}
 
-# B&W Variant {{{
-Include: _bw.colortemplate
 # }}}
