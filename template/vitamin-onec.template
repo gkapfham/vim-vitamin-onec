@@ -49,7 +49,8 @@ Color: blue                 rgb(135, 175, 215)   110        DarkBlue
 Color: magenta              rgb(135,  95, 135)   96         DarkMagenta
 # Color: cyan                 rgb(135, 175, 175)   109        DarkCyan
 # Color: cyan                 rgb(135,  215, 175)  115         DarkCyan
-Color: cyan                 rgb(175, 215, 215)   152        DarkCyan
+# Color: cyan                 rgb(175, 215, 175)   151        DarkCyan
+Color: cyan                 rgb(135, 175, 135)   108        DarkCyan
 Color: white                rgb(118, 118, 118)   243        Gray
 Color: brightblack          rgb( 48,  48,  48)   236        Black
 Color: brightred            rgb(215,  95,  95)   167        DarkRed
@@ -57,7 +58,7 @@ Color: brightgreen          rgb( 95, 135,   0)   64         DarkGreen
 Color: brightyellow         rgb(215, 135,   0)   172        DarkYellow
 Color: brightblue           rgb(135, 175, 215)   110        DarkBlue
 Color: brightmagenta        rgb(135,  95, 135)   96         DarkMagenta
-Color: brightcyan           rgb(175, 215, 215)   152        DarkCyan
+Color: brightcyan           rgb(135, 175, 135)   108        DarkCyan
 Color: brightwhite          rgb(168, 168, 168)   248        Gray
 
 Term Colors: black red green yellow blue magenta cyan white
