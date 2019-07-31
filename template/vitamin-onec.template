@@ -88,16 +88,16 @@ Conceal              brightyellow      none
 Cursor               yellow            none
 CursorColumn         none              brightblack
 CursorLine           none              brightblack
-DiffAdd              brightgreen       black             reverse
-DiffChange           yellow            brightwhite       reverse
-DiffDelete           red               brightwhite       reverse
+DiffAdd              green             black             bold
+DiffChange           yellow            black             bold
+DiffDelete           red               black             bold
 DiffText             green             brightwhite       bold,reverse
 Directory            green             none
 EndOfBuffer          brightblack       none
 ErrorMsg             red               brightwhite       reverse
 Folded               white             brightblack       italic
 IncSearch            magenta           brightwhite       t=reverse g=standout
-MatchParen           brightblack       yellow            bold,reverse
+MatchParen           brightblack       brightyellow      bold
 ModeMsg              yellow            none
 MoreMsg              yellow            none
 NonText              brightwhite       none
@@ -137,7 +137,7 @@ Function             green             none
 Identifier           brightblue        none
 Ignore               brightwhite       none
 Include              red               none
-Keyword              cyan              none
+Keyword              blue              none
 Label                green             none
 Number               red               none
 Operator             brightcyan        none
