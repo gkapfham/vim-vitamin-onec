@@ -18,7 +18,7 @@ Include: _help.colortemplate
 # Common linked groups {{{
 
 Repeat            -> Statement
-QuickFixLine      -> Search
+# QuickFixLine      -> Search
 StatusLineTerm    -> StatusLine
 StatusLineTermNC  -> StatusLineNC
 Conditional       -> Statement
@@ -119,12 +119,11 @@ TabLine              black             cyan
 TabLineFill          brightwhite       cyan
 TabLineSel           brightwhite       cyan
 Title                yellow            none              bold
-VertSplit            brightblack       cyan
-Visual               blue              brightwhite       reverse
+VertSplit            white             black
+Visual               white             black             reverse
 VisualNOS            brightwhite       blue
 WarningMsg           red               none
 WildMenu             brightwhite       black
-# Other conventional group names (see `:help group-name`)
 Boolean              brightgreen       none
 Character            yellow            none
 Comment              white             none              italic
@@ -155,6 +154,7 @@ Underlined           none              none              underline
 CursorIM             none              brightwhite
 ToolbarLine          none              brightblack
 ToolbarButton        cyan              brightblack       bold
+
 # }}}
 
 # Additional highlight groups {{{
@@ -172,7 +172,10 @@ SignatureMarkerText  yellow            black             bold
 
 # Quickfix highlight groups {{{
 
-qfLineNr             green             white             reverse
+qfFileName->Directory
+qfLineNr             green             black
+qfError->qfLineNr
+QuickFixLine         none              brightblack
 
 # }}}
 
