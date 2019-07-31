@@ -64,7 +64,7 @@ Term Colors: brightblue brightmagenta brightcyan brightwhite
 
 # }}}
 
-# Default highlight groups {{{
+# Default Highlighting {{{
 
 Variant: gui
 #if get(g:, '@optionprefix_transp_bg', 0) && !has('gui_running')
@@ -133,7 +133,7 @@ Comment              white             none              italic
 Constant             red               none
 Debug                magenta           none
 Delimiter            brightwhite       none
-Error                red               brightwhite       reverse
+Error                red               black             underline
 Float                brightgreen       none
 Function             green             none
 Identifier           brightblue        none
@@ -160,7 +160,7 @@ ToolbarButton        cyan              brightblack       bold
 
 # }}}
 
-# Statusline Highlight Groups {{{
+# Statusline Highlighting {{{
 
 NormalMode           white             brightwhite       reverse
 InsertMode           brightgreen       black             reverse
@@ -170,7 +170,7 @@ CommandMode          magenta           brightwhite       reverse
 
 # }}}
 
-# Signature Highlight Groups {{{
+# Signature Highlighting {{{
 
 SignatureMarkText    brightyellow      black             bold
 SignatureMarkerText  yellow            black             bold
@@ -193,12 +193,19 @@ semshiSelected        none             none              underline,bold
 
 # }}}
 
-# Quickfix highlight groups {{{
+# Quickfix Highlighting {{{
 
 qfFileName->Directory
-qfLineNr             green             black
-qfError->qfLineNr
+qfLineNr             red             black
+qfError              red               black
 QuickFixLine         none              brightblack
+
+# }}}
+
+# Ale Highlighting {{{
+
+ALEWarningSign->String
+ALEErrorSign->WarningMsg
 
 # }}}
 
