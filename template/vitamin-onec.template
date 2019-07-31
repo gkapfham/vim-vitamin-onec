@@ -96,7 +96,7 @@ Directory            green             none
 EndOfBuffer          brightblack       none
 ErrorMsg             red               brightwhite       reverse
 Folded               white             brightblack       italic
-IncSearch            magenta           brightwhite       t=reverse g=standout
+IncSearch            none              none              reverse
 MatchParen           brightblack       brightyellow      bold
 ModeMsg              yellow            none
 MoreMsg              yellow            none
@@ -106,7 +106,7 @@ PmenuSbar            brightblack       brightblack
 PmenuSel             brightwhite       brightblack       reverse
 PmenuThumb           brightblack       white
 Question             yellow            none
-Search               green             brightwhite       reverse
+Search               none              none              underline,bold
 SignColumn           white             none
 SpecialKey           white             none
 SpellBad             red               none              s=red t=underline g=undercurl
@@ -150,10 +150,9 @@ StorageClass         brightcyan        none
 String               yellow            none
 Structure            red               none
 Todo                 brightyellow      none              bold
-Type                 brightmagenta     none
+Type                 brightyellow      none
 Underlined           none              none              underline
 CursorIM             none              brightwhite
-# See `:help window-toolbar`
 ToolbarLine          none              brightblack
 ToolbarButton        cyan              brightblack       bold
 # }}}
@@ -165,6 +164,9 @@ InsertMode           brightgreen       black             reverse
 ReplaceMode          yellow            black             reverse
 VisualMode           blue              brightwhite       reverse
 CommandMode          magenta           brightwhite       reverse
+
+SignatureMarkText    brightyellow      black             bold
+SignatureMarkerText  yellow            black             bold
 
 # }}}
 
