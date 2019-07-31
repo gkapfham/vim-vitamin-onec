@@ -123,7 +123,7 @@ TabLineFill          brightwhite       cyan
 TabLineSel           brightwhite       cyan
 Title                brightwhite       none              bold
 VertSplit            white             black
-Visual               white             black             reverse
+Visual               none              brightblack
 VisualNOS            brightwhite       blue
 WarningMsg           red               none
 WildMenu             magenta           black
