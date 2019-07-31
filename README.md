@@ -46,10 +46,10 @@ colorscheme vitaminonec
 
 ## Improvements
 
-Do you want to improve vim-vitamin-onec? First, please consider reviewing the
-[vim-wwdc16-theme](https://github.com/lifepillar/vim-wwdc16-theme) from which it
-was derived. Next, install
+Do you want to improve **vim-vitamin-onec**? First, please consider reviewing
+the [vim-wwdc16-theme](https://github.com/lifepillar/vim-wwdc16-theme) from
+which it was derived. Next, install
 [Colortemplate](https://github.com/lifepillar/vim-colortemplate), modify
 `template/vitamin-onec.template`, and then rebuild the colorscheme. If you
-extend or improve vim-vitamin-onec, then please consider submitting a pull
+extend or **improve vim-vitamin-onec**, then please consider submitting a pull
 request!
