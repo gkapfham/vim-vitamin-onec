@@ -28,6 +28,22 @@ React. Importantly, **vim-vitamin-onec** provides highlight group definitions
 for [Semshi's](https://github.com/numirias/semshi) semantic highlighting of
 Python source code.
 
+If you use Plug, then you can install **vim-vitamin-onec** by using:
+
+```vim
+Plug 'gkapfham/vim-vitamin-onec'
+```
+
+You can adopt the true-color variant of **vim-vitamin-onec** by using:
+
+```vim
+" Use full color in the terminal
+set termguicolors
+
+" Display the colorscheme
+colorscheme vitaminonec
+```
+
 ## Improvements
 
 Do you want to improve vim-vitamin-onec? First, please consider reviewing the
