@@ -24,7 +24,9 @@ colorscheme supports Vim, Neovim, MacVim, and GVim &mdash; although the
 colorscheme's creator primarily uses Neovim. Even though it likely works in
 other contexts, the colorscheme regularly supports the creator's use of Neovim
 during the use of the following languages: CSS, HTML, Java, JavaScript, LaTeX,
-Markdown, Python, and React.
+Markdown, Python, and React. Importantly, **vim-vitamin-onec** provides
+highlight group definitions for [Semshi's](https://github.com/numirias/semshi)
+semantic highlighting of Python source code.
 
 ## Improvements
 
