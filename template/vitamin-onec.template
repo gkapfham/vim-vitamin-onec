@@ -132,7 +132,7 @@ Character            yellow            none
 Comment              white             none              italic
 Constant             red               none
 Debug                magenta           none
-Delimiter            none              none              bold
+Delimiter            none              none
 Error                red               black             underline
 Float                blue              none
 Function             green             none
