@@ -11,19 +11,19 @@ A dark Vim colorscheme with "vitamins" that promote fruitful programming and wri
 ## Introduction
 
 Featuring orange, several "fruity" colors, two shades of dark grey, and one
-shade of light grey, vim-vitamin-onec received its name because (i) orange
+shade of light grey, **vim-vitamin-onec** received its name because (i) orange
 (also a fruit that contains vitamin C) is an important highlight color, (ii)
 the dominant grey background has a color code of `#1c1c1c`, and (iii) the
 alliteration in the name makes it more fun to say. Since the combination of
-those facts yielded the name "vim-vitamin-onec", the colorscheme's creator
-likes to think that the pleasing combination of colors will promote "fruitful"
-programming and writing.
+those facts yielded the name "**vim-vitamin-onec**", the colorscheme's creator
+likes to think that its pleasing combination of bright colors and dark greys
+will promote "fruitful" programming and writing.
 
-Providing both true-color and 256-color variants, the vim-vitamin-onec
+Providing both true-color and 256-color variants, the **vim-vitamin-onec**
 colorscheme supports Vim, Neovim, MacVim, and GVim &mdash; although the
-colorscheme's creator primarily uses Neovim. Although it likely works in other
-contexts, the colorscheme regularly supports the creator's use of Neovim during
-the use of the following languages: CSS, HTML, Java, JavaScript, LaTeX,
+colorscheme's creator primarily uses Neovim. Even though it likely works in
+other contexts, the colorscheme regularly supports the creator's use of Neovim
+during the use of the following languages: CSS, HTML, Java, JavaScript, LaTeX,
 Markdown, Python, and React.
 
 ## Improvements
