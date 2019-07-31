@@ -19,14 +19,14 @@ those facts yielded the name "**vim-vitamin-onec**", the colorscheme's creator
 likes to think that its pleasing combination of bright colors and dark greys
 will promote "fruitful" programming and writing.
 
-Providing both true-color and 256-color variants, the **vim-vitamin-onec**
-colorscheme supports Vim, Neovim, MacVim, and GVim &mdash; although the
-colorscheme's creator primarily uses Neovim. Even though it likely works in
-other contexts, the colorscheme regularly supports the creator's use of Neovim
-during the use of the following languages: CSS, HTML, Java, JavaScript, LaTeX,
-Markdown, Python, and React. Importantly, **vim-vitamin-onec** provides
-highlight group definitions for [Semshi's](https://github.com/numirias/semshi)
-semantic highlighting of Python source code.
+Providing both true-color and 256-color variants, **vim-vitamin-onec** supports
+Vim, Neovim, MacVim, and GVim &mdash; although the colorscheme's creator
+primarily uses Neovim. Even though it likely works in other contexts, the
+colorscheme regularly supports the creator's use of Neovim during the use of the
+following languages: CSS, HTML, Java, JavaScript, LaTeX, Markdown, Python, and
+React. Importantly, **vim-vitamin-onec** provides highlight group definitions
+for [Semshi's](https://github.com/numirias/semshi) semantic highlighting of
+Python source code.
 
 ## Improvements
 
