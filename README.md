@@ -15,18 +15,18 @@ shade of light grey, **vim-vitamin-onec** received its name because (i) orange
 (also a fruit that contains vitamin C) is an important highlight color, (ii)
 the dominant grey background has a color code of `#1c1c1c`, and (iii) the
 alliteration in the name makes it more fun to say. Since the combination of
-those facts yielded the name "**vim-vitamin-onec**", the colorscheme's creator
-likes to think that its pleasing combination of bright colors and dark greys
-will promote "fruitful" programming and writing.
+those facts yielded the name "**vim-vitamin-onec**", this colorscheme offers a
+pleasing combination of bright colors and dark greys will promote "fruitful"
+programming and writing.
 
 Providing both true-color and 256-color variants, **vim-vitamin-onec** supports
-Vim, Neovim, MacVim, and GVim &mdash; although the colorscheme's creator
-primarily uses Neovim. Even though it likely works in other contexts, the
-colorscheme regularly supports the creator's use of Neovim during the use of
-the following languages: CSS, HTML, Java, JavaScript, LaTeX, Markdown, Python,
-and React, Shell. Importantly, **vim-vitamin-onec** provides highlight group
-definitions for [Semshi's](https://github.com/numirias/semshi) semantic
-highlighting of Python source code.
+Vim, Neovim, MacVim, and GVim &mdash; although the colorscheme is developed and
+used in Neovim. Even though it likely works in other contexts, the colorscheme
+best enhances the use of Neovim during the use of the following languages: CSS,
+HTML, Java, JavaScript, LaTeX, Markdown, Python, React, and Shell. Importantly,
+**vim-vitamin-onec** provides highlight group definitions for
+[Semshi's](https://github.com/numirias/semshi) semantic highlighting of Python
+source code.
 
 ## Screenshots
 
