@@ -22,12 +22,12 @@ promote "fruitful" programming and writing.
 
 Providing both true-color and 256-color variants, **vim-vitamin-onec** supports
 Vim, Neovim, MacVim, and GVim &mdash; although the colorscheme is primarily
-developed and used in Neovim. Even though it should work in other contexts, the
-colorscheme best enhances the use of Neovim during the use of the following
+developed and tested with Neovim. Even though it should work in other contexts,
+the colorscheme best enhances the use of Neovim during the use of the following
 languages: CSS, HTML, Java, JavaScript, LaTeX, Markdown, Python, React, and
 Shell. Importantly, **vim-vitamin-onec** provides highlight group definitions
-for [Semshi's](https://github.com/numirias/semshi) semantic highlighting of
-Python source code.
+for well-known Vim plugins (e.g., [Semshi's](https://github.com/numirias/semshi)
+semantic highlighting of Python code).
 
 ## Screenshots
 
@@ -45,7 +45,8 @@ Python source code.
 
 ## Installation
 
-If you use Plug, then you can install **vim-vitamin-onec** by using:
+If you use [Plug](https://github.com/junegunn/vim-plug), then you can install
+**vim-vitamin-onec** by using:
 
 ```vim
 Plug 'gkapfham/vim-vitamin-onec'
@@ -59,6 +60,44 @@ set termguicolors
 
 " Display the colorscheme
 colorscheme vitaminonec
+```
+
+## Plugin Configuration
+
+The **vim-vitamin-onec** colorscheme defines highlight groups for the following
+plugins or types of highlight:
+
+- Ale
+- Conceal
+- Fzf
+- Git-messenger
+- Semshi
+- Signature
+- Statusline
+- Quickfix
+
+If you want the [fzf](https://github.com/junegunn/fzf) in your terminal to
+match the **vim-vitamin-onec** theme, then add this to your `.zshrc` file:
+
+```shell
+export FZF_DEFAULT_OPTS='
+  --bind ctrl-f:page-down,ctrl-b:page-up
+  --color=fg:#a8a8a8,bg:#1c1c1c,hl:#5f8700
+  --color=fg+:#afaf5f,bg+:#1c1c1c,hl+:#d78700
+  --color=info:#87afd7,prompt:#87afd7,pointer:#d78700
+  --color=marker:#d78700,spinner:#875f87,header:#875f87'
+```
+
+If you want your [lightline.vim](https://github.com/itchyny/lightline.vim) to
+match **vim-vitamin-onec**, then add the following lines to your `.vimrc` or
+`init.vim` file. Make sure that you delete `<remainder of the lighline
+variable>` and add in you other configurations for this plugin!
+
+```vim
+let g:lightline = {
+      \ 'colorscheme': 'vitaminonec',
+      <remainder of the lightline variable>
+\ }
 ```
 
 ## Raising an Issue
