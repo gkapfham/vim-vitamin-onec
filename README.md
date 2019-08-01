@@ -13,7 +13,7 @@ and writing
 
 Featuring orange, several "fruity" colors, two shades of dark grey, and one
 shade of light grey, **vim-vitamin-onec** received its name because (i) the
-orange color is both a meaningful highlight and a fruit containing **vitamin**
+orange is both a meaningful highlight color and a fruit containing **vitamin**
 C, (ii) the dominant grey background has a **onec** color code of `#1c1c1c`, and
 (iii) the alliteration in the name makes it more fun to say. Since the
 combination of those facts yielded the name "**vim-vitamin-onec**", this
