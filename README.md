@@ -67,8 +67,9 @@ The developer of **vim-vitamin-onec** is glad that you are willing to take the
 time to raise an issue to document problems with the colorscheme. Before you do
 so, please check the [Issue
 Tracker](https://github.com/gkapfham/vim-vitamin-onec/issues) to make sure that
-someone has not already raised your issue. If you have a new issue to raise, go
-ahead and [raise it](https://github.com/gkapfham/vim-vitamin-onec/issues/new/)!
+someone has not already raised your issue. If you have a new issue to raise,
+then please go ahead and [raise
+it](https://github.com/gkapfham/vim-vitamin-onec/issues/new/)!
 
 ## Making an Improvement
 
@@ -84,5 +85,5 @@ Model](https://guides.github.com/introduction/flow/) to guide the creation of
 **vim-vitamin-onec**. You are invited to also follow this model as you make a
 contribution through a pull request. If you have a new feature or bug fix that
 you want the project maintainers to merge into **vim-vitamin-onec**, then you
-should make a [pull
-request](https://github.com/gkapfham/vim-vitamin-onec/pulls).
+should make a [Pull
+Request](https://github.com/gkapfham/vim-vitamin-onec/pulls).
