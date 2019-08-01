@@ -207,9 +207,9 @@ QuickFixLine         none            brightblack
 
 ALEWarningSign         -> String
 ALEErrorSign           -> WarningMsg
-ALEErrorSignLineNr     red      none    bold
-ALEInfoSignLineNr      yellow   none    bold
-ALEWarningSignLineNr   yellow   none    bold
+ALEErrorSignLineNr     red      none
+ALEInfoSignLineNr      yellow   none
+ALEWarningSignLineNr   yellow   none
 
 # }}}
 
