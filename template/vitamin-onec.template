@@ -1,6 +1,7 @@
 # vim: ft=colortemplate
 
 # Information {{{
+
 Full name:   Vitamin-Onec
 Short name:  vitaminonec
 Author:      GregKapfhammer <gkapfham@allegheny.edu>
@@ -8,6 +9,7 @@ Website:     https://github.com/gkapfham/vim-vitamin-onec
 Description: A dark Vim colorscheme with vitaminic colors that promote fruitful programming and writing
 License:     MIT License
 Neovim:      yes
+
 # }}}
 
 # Documentation {{{
