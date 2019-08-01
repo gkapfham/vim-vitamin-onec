@@ -92,7 +92,7 @@ Cursor               yellow            none
 CursorColumn         none              brightblack
 CursorLine           none              brightblack
 DiffAdd              green             black             bold
-DiffChange           yellow            black             bold
+DiffChange           blue              black             bold
 DiffDelete           red               black             bold
 DiffText             green             brightwhite       bold,reverse
 Directory            green             none

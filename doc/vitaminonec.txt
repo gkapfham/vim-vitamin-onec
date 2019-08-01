@@ -1,6 +1,6 @@
 *vitaminonec.txt*	For Vim version 8.0	Last change: 2019 Jul 31
 
-		Vitamin-Onec color scheme    by Gregory
+		Vitamin-Onec color scheme    by GregKapfhammer
 
 Featuring orange, several "fruity" colors, two shades of dark grey, and one
 shade of light grey, Vitamin-Onec received its name because (i) orange
