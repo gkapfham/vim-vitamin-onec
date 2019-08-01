@@ -170,6 +170,20 @@ ALEWarningSignLineNr   none     none
 
 # }}}
 
+# Conceal Highlighting {{{
+
+Conceal brightyellow  none
+
+# }}}
+
+# FZF Highlighting {{{
+
+fzf1 black blue  bold
+fzf2 black blue  bold
+fzf3 blue  black
+
+# }}}
+
 # Git-Messenger Highlighting {{{
 
 gitmessengerHeader      -> Identifier
