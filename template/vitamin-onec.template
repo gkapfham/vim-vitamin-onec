@@ -179,6 +179,16 @@ Conceal brightyellow  none
 
 # }}}
 
+# Easymotion Highlighting {{{
+
+EasyMotionTarget      -> Type
+EasyMotionShade       -> Comment
+EasyMotionIncSearch   -> Type
+EasyMotionIncCursor   -> Type
+EasyMotionMoveHL      -> Type
+
+# }}}
+
 # FZF Highlighting {{{
 
 fzf1 black blue  bold

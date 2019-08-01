@@ -69,6 +69,7 @@ plugins or types of highlight:
 
 - Ale
 - Conceal
+- Easymotion
 - Fzf
 - Git-messenger
 - Semshi
