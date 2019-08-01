@@ -64,7 +64,7 @@ colorscheme vitaminonec
 ## Raising an Issue
 
 The developer of **vim-vitamin-onec** is glad that you are willing to take the
-time to raise an issue to document problems with the colorscheme. Before you do
+time to raise an issue documenting problems with the colorscheme. Before you do
 so, please check the [Issue
 Tracker](https://github.com/gkapfham/vim-vitamin-onec/issues) to make sure that
 someone has not already raised your issue. If you have a new issue to raise,
