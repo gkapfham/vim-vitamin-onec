@@ -1,3 +1,8 @@
+" File:        vitaminonec.vim
+" Author:      GregKapfhammer <gkapfham@allegheny.edu>
+" Website:     https://github.com/gkapfham/vim-vitamin-onec
+" Description: A dark lightline colorscheme with vitaminic colors that promote fruitful programming and writing
+
 " Common colors
 let s:fg     = [ '#bcbcbc', 250 ]
 let s:blue   = [ '#87afd7', 110 ]
