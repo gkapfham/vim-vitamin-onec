@@ -195,21 +195,33 @@ semshiSelected        none             none              underline,bold
 
 # Quickfix Highlighting {{{
 
-qfFileName->Directory
+qfFileName -> Directory
+
 qfLineNr             red             black
-qfError              red               black
-QuickFixLine         none              brightblack
+qfError              red             black
+QuickFixLine         none            brightblack
 
 # }}}
 
-# Ale Highlighting {{{
+# ALE Highlighting {{{
 
-ALEWarningSign->String
-ALEErrorSign->WarningMsg
+ALEWarningSign  -> String
+ALEErrorSign    -> WarningMsg
 
 # }}}
 
-# NeoVim {{{
+# Git-Messenger Highlighting {{{
+
+gitmessengerHeader      -> Identifier
+gitmessengerHash        -> Comment
+gitmessengerHistory     -> Constant
+gitmessengerPopupNormal -> CursorLine
+
+gitmessengerEndOfBuffer    none  none
+
+# }}}
+
+# NeoVim Highlighting {{{
 
 TermCursor        -> Cursor
 TermCursorNC         brightwhite       white
