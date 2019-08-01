@@ -98,7 +98,7 @@ DiffText             green             brightwhite       bold,reverse
 Directory            green             none
 EndOfBuffer          brightblack       none
 ErrorMsg             red               black
-Folded               white             brightblack       italic
+Folded               brightwhite       brightblack       italic
 IncSearch            none              none              reverse
 MatchParen           brightblack       brightyellow      bold
 ModeMsg              yellow            none
@@ -205,8 +205,11 @@ QuickFixLine         none            brightblack
 
 # ALE Highlighting {{{
 
-ALEWarningSign  -> String
-ALEErrorSign    -> WarningMsg
+ALEWarningSign         -> String
+ALEErrorSign           -> WarningMsg
+ALEErrorSignLineNr     -> red      none    bold
+ALEInfoSignLineNr      -> yellow   none    bold
+ALEWarningSignLineNr   -> yellow   none    bold
 
 # }}}
 
