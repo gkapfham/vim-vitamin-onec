@@ -15,38 +15,40 @@ let s:orange = [ '#d78700', 172 ]
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
-if lightline#colorscheme#background() ==# 'light'
-  " Light variant
-  let s:bg     = [ '#fafafa', 255 ]
-  let s:gray1  = [ '#494b53', 238 ]
-  let s:gray2  = [ '#f0f0f0', 255 ]
-  let s:gray3  = [ '#d0d0d0', 250 ]
-  let s:green  = [ '#98c379', 35 ]
+" if lightline#colorscheme#background() ==# 'light'
+"   " Light variant
+"   let s:bg     = [ '#fafafa', 255 ]
+"   let s:gray1  = [ '#494b53', 238 ]
+"   let s:gray2  = [ '#f0f0f0', 255 ]
+"   let s:gray3  = [ '#d0d0d0', 250 ]
+"   let s:green  = [ '#98c379', 35 ]
 
-  let s:p.normal.left     = [ [ s:bg, s:blue, 'bold'], [ s:fg, s:gray2 ] ]
-  let s:p.normal.middle   = [ [ s:fg, s:gray2 ] ]
-  let s:p.inactive.left   = [ [ s:fg,  s:gray2 ], [ s:fg, s:gray2 ] ]
-  let s:p.inactive.middle = [ [ s:fg, s:gray2 ] ]
-  let s:p.inactive.right  = [ [ s:bg, s:gray3 ], [ s:bg, s:gray3 ] ]
-  let s:p.insert.left     = [ [ s:bg, s:yellow, 'bold' ], [ s:fg, s:gray2 ] ]
-  let s:p.replace.left    = [ [ s:bg, s:red1, 'bold' ], [ s:fg, s:gray2 ] ]
-  let s:p.visual.left     = [ [ s:bg, s:purple, 'bold' ], [ s:fg, s:gray2 ] ]
-else
-  " Dark variant
-  let s:bg     = [ '#262626', 235 ]
-  let s:gray1  = [ '#626262', 241 ]
-  let s:gray2  = [ '#262626', 235 ]
-  let s:gray3  = [ '#585858', 240 ]
+  " let s:p.normal.left     = [ [ s:bg, s:blue, 'bold'], [ s:fg, s:gray2 ] ]
+  " let s:p.normal.middle   = [ [ s:fg, s:gray2 ] ]
+  " let s:p.inactive.left   = [ [ s:fg,  s:gray2 ], [ s:fg, s:gray2 ] ]
+  " let s:p.inactive.middle = [ [ s:fg, s:gray2 ] ]
+  " let s:p.inactive.right  = [ [ s:bg, s:gray3 ], [ s:bg, s:gray3 ] ]
+  " let s:p.insert.left     = [ [ s:bg, s:yellow, 'bold' ], [ s:fg, s:gray2 ] ]
+  " let s:p.replace.left    = [ [ s:bg, s:red1, 'bold' ], [ s:fg, s:gray2 ] ]
+  " let s:p.visual.left     = [ [ s:bg, s:purple, 'bold' ], [ s:fg, s:gray2 ] ]
+" else
 
-  let s:p.normal.left     = [ [ s:bg, s:blue, 'bold'], [ s:fg, s:gray2 ] ]
-  let s:p.normal.middle   = [ [ s:fg, s:gray2] ]
-  let s:p.inactive.left   = [ [ s:fg,  s:gray2 ], [ s:fg, s:gray2 ] ]
-  let s:p.inactive.middle = [ [ s:gray1, s:gray2] ]
-  let s:p.inactive.right  = [ [ s:gray1, s:bg ], [ s:gray1, s:bg ] ]
-  let s:p.insert.left     = [ [ s:bg, s:yellow, 'bold' ], [ s:fg, s:gray2 ] ]
-  let s:p.replace.left    = [ [ s:bg, s:red1, 'bold' ], [ s:fg, s:gray2 ] ]
-  let s:p.visual.left     = [ [ s:bg, s:purple, 'bold' ], [ s:fg, s:gray2 ] ]
-endif
+" Dark variant
+let s:bg     = [ '#262626', 235 ]
+let s:gray1  = [ '#626262', 241 ]
+let s:gray2  = [ '#262626', 235 ]
+let s:gray3  = [ '#585858', 240 ]
+
+let s:p.normal.left     = [ [ s:bg, s:blue, 'bold'], [ s:fg, s:gray2 ] ]
+let s:p.normal.middle   = [ [ s:fg, s:gray2] ]
+let s:p.inactive.left   = [ [ s:fg,  s:gray2 ], [ s:fg, s:gray2 ] ]
+let s:p.inactive.middle = [ [ s:gray1, s:gray2] ]
+let s:p.inactive.right  = [ [ s:gray1, s:bg ], [ s:gray1, s:bg ] ]
+let s:p.insert.left     = [ [ s:bg, s:yellow, 'bold' ], [ s:fg, s:gray2 ] ]
+let s:p.replace.left    = [ [ s:bg, s:red1, 'bold' ], [ s:fg, s:gray2 ] ]
+let s:p.visual.left     = [ [ s:bg, s:purple, 'bold' ], [ s:fg, s:gray2 ] ]
+
+" endif
 
 " Common
 let s:p.normal.right   = [ [ s:bg, s:blue, 'bold'], [ s:bg, s:blue, 'bold'] ]
