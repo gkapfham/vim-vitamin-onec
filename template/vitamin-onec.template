@@ -160,20 +160,24 @@ ToolbarButton        cyan              brightblack       bold
 
 # }}}
 
-# Statusline Highlighting {{{
+# ALE Highlighting {{{
 
-NormalMode           white             brightwhite       reverse
-InsertMode           brightgreen       black             reverse
-ReplaceMode          yellow            black             reverse
-VisualMode           blue              brightwhite       reverse
-CommandMode          magenta           brightwhite       reverse
+ALEWarningSign         -> String
+ALEErrorSign           -> WarningMsg
+ALEErrorSignLineNr     none     none
+ALEInfoSignLineNr      none     none
+ALEWarningSignLineNr   none     none
 
 # }}}
 
-# Signature Highlighting {{{
+# Git-Messenger Highlighting {{{
 
-SignatureMarkText    brightyellow      black             bold
-SignatureMarkerText  yellow            black             bold
+gitmessengerHeader      -> Identifier
+gitmessengerHash        -> Comment
+gitmessengerHistory     -> Constant
+gitmessengerPopupNormal -> CursorLine
+
+gitmessengerEndOfBuffer    none  none
 
 # }}}
 
@@ -193,6 +197,23 @@ semshiSelected        none             none              underline,bold
 
 # }}}
 
+# Signature Highlighting {{{
+
+SignatureMarkText    brightyellow      black             bold
+SignatureMarkerText  yellow            black             bold
+
+# }}}
+
+# Statusline Highlighting {{{
+
+NormalMode           white             brightwhite       reverse
+InsertMode           brightgreen       black             reverse
+ReplaceMode          yellow            black             reverse
+VisualMode           blue              brightwhite       reverse
+CommandMode          magenta           brightwhite       reverse
+
+# }}}
+
 # Quickfix Highlighting {{{
 
 qfFileName -> Directory
@@ -200,27 +221,6 @@ qfFileName -> Directory
 qfLineNr             red             black
 qfError              red             black
 QuickFixLine         none            brightblack
-
-# }}}
-
-# ALE Highlighting {{{
-
-ALEWarningSign         -> String
-ALEErrorSign           -> WarningMsg
-ALEErrorSignLineNr     none     none
-ALEInfoSignLineNr      none     none
-ALEWarningSignLineNr   none     none
-
-# }}}
-
-# Git-Messenger Highlighting {{{
-
-gitmessengerHeader      -> Identifier
-gitmessengerHash        -> Comment
-gitmessengerHistory     -> Constant
-gitmessengerPopupNormal -> CursorLine
-
-gitmessengerEndOfBuffer    none  none
 
 # }}}
 
