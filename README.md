@@ -61,12 +61,28 @@ set termguicolors
 colorscheme vitaminonec
 ```
 
-## Improvements
+## Raising an Issue
+
+The developer of **vim-vitamin-onec** is glad that you are willing to take the
+time to raise an issue to document problems with the colorscheme. Before you do
+so, please check the [Issue
+Tracker](https://github.com/gkapfham/vim-vitamin-onec/issues) to make sure that
+someone has not already raised your issue. If you have a new issue to raise, go
+ahead and [raise it](https://github.com/gkapfham/vim-vitamin-onec/issues/new/)!
+
+## Making an Improvement
 
 Do you want to improve **vim-vitamin-onec**? First, please consider reviewing
 the [vim-wwdc16-theme](https://github.com/lifepillar/vim-wwdc16-theme) from
 which it was derived. Next, install
 [Colortemplate](https://github.com/lifepillar/vim-colortemplate), modify
-`template/vitamin-onec.template`, and then rebuild the colorscheme. If you
-extend or **improve vim-vitamin-onec**, then please consider submitting a pull
-request!
+`template/vitamin-onec.template`, and then rebuild the colorscheme using the
+command `:Colortemplate!`.
+
+The colorscheme's developer uses the [GitHub Flow
+Model](https://guides.github.com/introduction/flow/) to guide the creation of
+**vim-vitamin-onec**. You are invited to also follow this model as you make a
+contribution through a pull request. If you have a new feature or bug fix that
+you want the project maintainers to merge into **vim-vitamin-onec**, then you
+should make a [pull
+request](https://github.com/gkapfham/vim-vitamin-onec/pulls).
