@@ -139,7 +139,7 @@ Delimiter            none              none
 Error                red               black             underline
 Float                blue              none
 Function             green             none
-Identifier           brightblue        none
+Identifier           cyan              none
 Ignore               brightwhite       none
 Include              red               none
 Keyword              blue              none
@@ -199,7 +199,7 @@ fzf3 blue  black
 
 # Git-Messenger Highlighting {{{
 
-gitmessengerHeader      -> Identifier
+gitmessengerHeader      -> Statement
 gitmessengerHash        -> Comment
 gitmessengerHistory     -> Constant
 gitmessengerPopupNormal -> CursorLine
