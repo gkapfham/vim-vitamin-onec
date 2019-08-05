@@ -139,7 +139,7 @@ Delimiter            none              none
 Error                red               black             underline
 Float                blue              none
 Function             green             none
-Identifier           cyan              none
+Identifier           blue              none
 Ignore               brightwhite       none
 Include              red               none
 Keyword              blue              none
@@ -150,7 +150,7 @@ PreProc              blue              none
 Special              yellow            none
 SpecialChar          magenta           none
 SpecialComment       red               none
-Statement            blue              none
+Statement            cyan              none
 StorageClass         brightcyan        none
 String               yellow            none
 Structure            red               none
