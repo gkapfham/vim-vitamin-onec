@@ -156,7 +156,7 @@ String               yellow            none
 Structure            red               none
 Todo                 brightyellow      none              bold,underline
 Type                 brightyellow      none
-Underlined           yellow            none              underline
+Underlined           green             none              underline
 CursorIM             none              brightwhite
 ToolbarLine          none              brightblack
 ToolbarButton        cyan              brightblack       bold
