@@ -218,7 +218,7 @@ semshiParameterUnused blue             none              underline
 semshiFree            red              none
 semshiBuiltin         green            none              underline
 semshiAttribute       cyan             none
-semshiSelf            brightblack      none
+semshiSelf            magenta          none              italic
 semshiUnresolved      none             none              underline
 semshiSelected        none             none              underline,bold
 
