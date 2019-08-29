@@ -208,6 +208,12 @@ gitmessengerEndOfBuffer    none  none
 
 # }}}
 
+# Markdown Highlighting {{{
+
+markdownHeadingDelimiter -> Type
+
+# }}}
+
 # Semshi Highlighting for Python {{{
 
 semshiLocal           red              none
