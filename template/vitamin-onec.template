@@ -210,7 +210,8 @@ gitmessengerEndOfBuffer    none  none
 
 # Java Highlighting {{{
 
-javaScopeDecl -> Identifier
+javaScopeDecl  -> Identifier
+javaAnnotation -> Type
 
 # }}}
 
