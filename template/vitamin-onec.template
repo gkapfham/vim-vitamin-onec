@@ -208,6 +208,12 @@ gitmessengerEndOfBuffer    none  none
 
 # }}}
 
+# Java Highlighting {{{
+
+javaScopeDecl -> Identifier
+
+# }}}
+
 # Markdown Highlighting {{{
 
 markdownHeadingDelimiter -> Type
