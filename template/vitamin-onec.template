@@ -208,6 +208,12 @@ gitmessengerEndOfBuffer    none  none
 
 # }}}
 
+# LaTeX Highlighting {{{
+
+texRefZone -> PreProc
+
+# }}}
+
 # Java Highlighting {{{
 
 javaScopeDecl  -> Identifier
