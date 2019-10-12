@@ -211,6 +211,7 @@ gitmessengerEndOfBuffer    none  none
 # LaTeX Highlighting {{{
 
 texRefZone -> PreProc
+texCite    -> Special
 
 # }}}
 
