@@ -1,4 +1,4 @@
-*vitaminonec.txt*	For Vim version 8.0	Last change: 2019 Oct 12
+*vitaminonec.txt*	For Vim version 8.0	Last change: 2019 Nov 30
 
 		Vitamin-Onec color scheme    by GregKapfhammer
 

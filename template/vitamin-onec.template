@@ -208,6 +208,12 @@ gitmessengerEndOfBuffer    none  none
 
 # }}}
 
+# Illuminate Highlighting {{{
+
+illuminatedWord            none  none             underline,bold
+
+# }}}
+
 # LaTeX Highlighting {{{
 
 texRefZone -> PreProc
