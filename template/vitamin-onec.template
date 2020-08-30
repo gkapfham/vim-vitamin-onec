@@ -231,6 +231,7 @@ javaAnnotation -> Type
 # Markdown Highlighting {{{
 
 markdownHeadingDelimiter -> Type
+markdownLinkText yellow none underline
 
 # }}}
 
