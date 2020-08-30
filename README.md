@@ -13,12 +13,12 @@ and writing
 
 Featuring orange, several "fruity" colors, two shades of dark grey, and one
 shade of light grey, **vim-vitamin-onec** received its name because (i) the
-orange is both a meaningful highlight color and a fruit containing **vitamin**
-C, (ii) the dominant grey background has a **onec** color code of `#1c1c1c`, and
-(iii) the alliteration in the name makes it more fun to say. Since the
+orange is both a meaningful highlight color and a fruit containing **vitamin
+C**, (ii) the dominant grey background has a **onec** color code of `#1c1c1c`,
+and (iii) the alliteration in the name makes it more fun to say. Since the
 combination of those facts yielded the name "**vim-vitamin-onec**", this
-colorscheme offers a vitaminic combination of bright colors and dark greys will
-promote "fruitful" programming and writing.
+colorscheme offers a "vitaminic" combination of bright colors and dark greys
+will promote "fruitful" programming and writing.
 
 Providing both true-color and 256-color variants, **vim-vitamin-onec** supports
 Vim, Neovim, MacVim, and GVim &mdash; although the colorscheme is primarily
