@@ -13,4 +13,4 @@ likes to think that its pleasing combination of bright colors and dark greys
 will promote "fruitful" programming and writing.
 enddocumentation
 
-# vim: ft=colortemplate fdm=marker ts=8 tw=78
+; vim: ft=colortemplate fdm=marker ts=8 tw=78

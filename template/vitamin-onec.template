@@ -1,6 +1,6 @@
-# vim: ft=colortemplate
+; vim: ft=colortemplate
 
-# Information {{{
+; Information {{{
 
 Full name:   Vitamin-Onec
 Short name:  vitaminonec
@@ -10,15 +10,15 @@ Description: A dark Vim colorscheme with vitaminic colors that promote fruitful 
 License:     MIT License
 Neovim:      yes
 
-# }}}
+; }}}
 
-# Documentation {{{
+; Documentation {{{
 
 Include: _help.colortemplate
 
-# }}}
+; }}}
 
-# Common Linked Groups {{{
+; Common Linked Groups {{{
 
 Repeat            -> Statement
 StatusLineTerm    -> StatusLine
@@ -32,17 +32,17 @@ Tag               -> Special
 Typedef           -> Type
 lCursor           -> Cursor
 
-# }}}
+; }}}
 
-# Only Provide Dark Theme {{{
+; Only Provide Dark Theme {{{
 
 Background: dark
 
-# }}}
+; }}}
 
-# Color Palette {{{
+; Color Palette {{{
 
-# Color name                GUI                  Base256    Base16
+; Color name                GUI                  Base256    Base16
 
 Color: black                rgb( 28,  28,  29)   234        Black
 Color: red                  rgb(215,  95,  95)   167        DarkRed
@@ -65,29 +65,29 @@ Term Colors: black red green yellow blue magenta cyan white
 Term Colors: brightblack brightred brightgreen brightyellow
 Term Colors: brightblue brightmagenta brightcyan brightwhite
 
-# }}}
+; }}}
 
-# Default Highlighting {{{
+; Default Highlighting {{{
 
 Variant: gui
-#if get(g:, '@optionprefix_transp_bg', 0) && !has('gui_running')
+;if get(g:, '@optionprefix_transp_bg', 0) && !has('gui_running')
 Variant: 256 8
-#if get(g:, '@optionprefix_transp_bg', 0)
+;if get(g:, '@optionprefix_transp_bg', 0)
 Variant: gui 256 8
     Normal           brightwhite       none
     CursorLineNr     green             none
     FoldColumn       white             none
     LineNr           white             none
     Terminal         brightwhite       none
-#else
+;else
     Normal           brightwhite       none
     CursorLineNr     green             none
     FoldColumn       white             none
     LineNr           white             none
     Terminal         brightwhite       none
-#endif
+;endif
 
-# Group              Foreground        Background        Attributes
+; Group              Foreground        Background        Attributes
 
 ColorColumn          none              brightblack
 Conceal              brightyellow      none
@@ -161,9 +161,9 @@ CursorIM             none              brightwhite
 ToolbarLine          none              brightblack
 ToolbarButton        cyan              brightblack       bold
 
-# }}}
+; }}}
 
-# ALE Highlighting {{{
+; ALE Highlighting {{{
 
 ALEWarningSign         -> String
 ALEErrorSign           -> WarningMsg
@@ -171,15 +171,15 @@ ALEErrorSignLineNr     none     none
 ALEInfoSignLineNr      none     none
 ALEWarningSignLineNr   none     none
 
-# }}}
+; }}}
 
-# Conceal Highlighting {{{
+; Conceal Highlighting {{{
 
 Conceal brightyellow  none
 
-# }}}
+; }}}
 
-# Easymotion Highlighting {{{
+; Easymotion Highlighting {{{
 
 EasyMotionTarget      -> Type
 EasyMotionShade       -> Comment
@@ -187,17 +187,17 @@ EasyMotionIncSearch   -> Type
 EasyMotionIncCursor   -> Type
 EasyMotionMoveHL      -> Type
 
-# }}}
+; }}}
 
-# FZF Highlighting {{{
+; FZF Highlighting {{{
 
 fzf1 black blue  bold
 fzf2 black blue  bold
 fzf3 blue  black
 
-# }}}
+; }}}
 
-# Git-Messenger Highlighting {{{
+; Git-Messenger Highlighting {{{
 
 gitmessengerHeader      -> Statement
 gitmessengerHash        -> Comment
@@ -206,40 +206,40 @@ gitmessengerPopupNormal -> CursorLine
 
 gitmessengerEndOfBuffer    none  none
 
-# }}}
+; }}}
 
-# Illuminate Highlighting {{{
+; Illuminate Highlighting {{{
 
 illuminatedWord            none  none             underline,bold
 
-# }}}
+; }}}
 
-# LaTeX Highlighting {{{
+; LaTeX Highlighting {{{
 
 texRefZone -> PreProc
 texCite    -> Special
 
-# }}}
+; }}}
 
-# Java Highlighting {{{
+; Java Highlighting {{{
 
 javaScopeDecl  -> Identifier
 javaAnnotation -> Type
 
-# }}}
+; }}}
 
-# Markdown Highlighting {{{
+; Markdown Highlighting {{{
 
 markdownHeadingDelimiter -> Type
 markdownLinkText yellow none underline
 
-# }}}
+; }}}
 
-# Semshi Highlighting for Python {{{
+; Semshi Highlighting for Python {{{
 
 semshiLocal           red              none
 semshiGlobal          green            none              italic
-semshiImported        blue             none
+semshiImported        brightyellow     none
 semshiParameter       blue             none
 semshiParameterUnused blue             none              underline
 semshiFree            red              none
@@ -249,16 +249,16 @@ semshiSelf            magenta          none              italic
 semshiUnresolved      none             none              underline
 semshiSelected        none             none              underline,bold
 
-# }}}
+; }}}
 
-# Signature Highlighting {{{
+; Signature Highlighting {{{
 
 SignatureMarkText    brightyellow      black             bold
 SignatureMarkerText  yellow            black             bold
 
-# }}}
+; }}}
 
-# Statusline Highlighting {{{
+; Statusline Highlighting {{{
 
 NormalMode           white             brightwhite       reverse
 InsertMode           brightgreen       black             reverse
@@ -266,9 +266,9 @@ ReplaceMode          yellow            black             reverse
 VisualMode           blue              brightwhite       reverse
 CommandMode          magenta           brightwhite       reverse
 
-# }}}
+; }}}
 
-# Quickfix Highlighting {{{
+; Quickfix Highlighting {{{
 
 qfFileName -> Directory
 
@@ -276,12 +276,12 @@ qfLineNr             red             black
 qfError              red             black
 QuickFixLine         none            brightblack
 
-# }}}
+; }}}
 
-# NeoVim Highlighting {{{
+; NeoVim Highlighting {{{
 
 TermCursor        -> Cursor
 TermCursorNC         brightwhite       white
 ExtraWhitespace      brightyellow      none
 
-# }}}
+; }}}
