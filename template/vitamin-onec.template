@@ -285,3 +285,9 @@ TermCursorNC         brightwhite       white
 ExtraWhitespace      brightyellow      none
 
 ; }}}
+
+; WhichKey Highlighting {{{
+
+WhichKeyFloat none black
+
+; }}}
