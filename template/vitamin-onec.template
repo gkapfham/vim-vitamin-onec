@@ -291,3 +291,14 @@ ExtraWhitespace      brightyellow      none
 WhichKeyFloat none black
 
 ; }}}
+
+; Telescope Highlighting {{{
+
+TelescopeBorder white none
+TelescopePromptBorder white none
+TelescopeResultsBorder white none
+TelescopePreviewBorder white none
+
+TelescopeMatching blue none
+
+; }}}
