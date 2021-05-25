@@ -303,3 +303,9 @@ TelescopeSelectionCaret blue none
 TelescopeSelection none none bold
 
 ; }}}
+
+; Vim {{{
+
+vimUsrCmd blue none
+
+; }}}
