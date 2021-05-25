@@ -299,7 +299,7 @@ TelescopePromptBorder white none
 TelescopeResultsBorder white none
 TelescopePreviewBorder white none
 TelescopeMatching brightyellow none
-TelescopeSelectionCaret brightyellow none
+TelescopeSelectionCaret blue none
 TelescopeSelection yellow none
 
 ; }}}
