@@ -300,7 +300,7 @@ TelescopeResultsBorder white none
 TelescopePreviewBorder white none
 TelescopeMatching blue none
 TelescopeSelectionCaret blue none
-TelescopeSelection yellow none
+TelescopeSelection none none underline
 
 ; }}}
 
