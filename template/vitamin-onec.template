@@ -305,6 +305,12 @@ TelescopeMultiSelection brightyellow none bold
 
 ; }}}
 
+; Octo.nvim {{{
+
+OctoBubble -> Normal
+
+; }}}
+
 ; Vim {{{
 
 vimUsrCmd blue none
