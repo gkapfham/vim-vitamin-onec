@@ -305,13 +305,21 @@ TelescopeMultiSelection brightyellow none bold
 
 ; }}}
 
-; Octo.nvim {{{
+; Neogit Highlighting {{{
+
+NeogitNotificationInfo -> CursorLineNr
+NeogitNotificationWarning -> Conceal
+NeogitNotificationError -> Include
+
+; }}}
+
+; Octo.nvim Highlighting {{{
 
 OctoBubble -> Normal
 
 ; }}}
 
-; Vim {{{
+; Vim Highlighting {{{
 
 vimUsrCmd blue none
 
