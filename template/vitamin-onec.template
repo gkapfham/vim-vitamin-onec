@@ -327,6 +327,10 @@ vimUsrCmd blue none
 
 ; LSP Highlighting {{{
 
+LspReferenceText -> Search
+LspReferenceRead -> Search
+LspReferenceWrite -> Search
+
 LspDiagnosticsDefaultError -> ErrorMsg
 LspDiagnosticsVirtualTextError -> ErrorMsg
 
