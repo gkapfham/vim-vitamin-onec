@@ -324,3 +324,10 @@ OctoBubble -> Normal
 vimUsrCmd blue none
 
 ; }}}
+
+; LSP Highlighting {{{
+
+LspDiagnosticsDefaultError -> ErrorMsg
+LspDiagnosticsVirtualTextError -> ErrorMsg
+
+; }}}
