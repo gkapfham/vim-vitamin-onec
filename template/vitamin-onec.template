@@ -336,8 +336,8 @@ LspDiagnosticsVirtualTextWarning -> Conceal
 LspDiagnosticsDefaultInformation -> String
 LspDiagnosticsVirtualTextInformation -> String
 
-LspDiagnosticsDefaultHint -> Comment
-LspDiagnosticsVirtualTextHint -> Comment
-LspCodeLens -> Comment
+LspDiagnosticsDefaultHint -> String
+LspDiagnosticsVirtualTextHint -> String
+LspCodeLens -> String
 
 ; }}}
