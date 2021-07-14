@@ -329,5 +329,8 @@ vimUsrCmd blue none
 
 LspDiagnosticsDefaultError -> ErrorMsg
 LspDiagnosticsVirtualTextError -> ErrorMsg
+LspDiagnosticsDefaultWarning -> String
+LspDiagnosticsDefaultInformation -> Comment
+
 
 ; }}}
