@@ -332,5 +332,6 @@ LspDiagnosticsVirtualTextError -> ErrorMsg
 LspDiagnosticsDefaultWarning -> String
 LspDiagnosticsDefaultInformation -> Comment
 LspDiagnosticsDefaultHint -> Comment
+LspCodeLens -> Comment
 
 ; }}}
