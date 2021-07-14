@@ -340,4 +340,6 @@ LspDiagnosticsDefaultHint -> String
 LspDiagnosticsVirtualTextHint -> String
 LspCodeLens -> String
 
+LspDiagnosticsFloatingError -> Pmenu
+
 ; }}}
