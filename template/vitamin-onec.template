@@ -122,8 +122,8 @@ SpellRare            brightmagenta     none              s=magenta t=underline g
 StatusLine           black             brightwhite       reverse
 StatusLineNC         black             black             reverse
 TabLine              black             cyan
-TabLineFill          brightwhite       cyan
-TabLineSel           brightwhite       cyan
+TabLineFill          none              none              bold
+TabLineSel           none              none              bold
 Title                green             none
 VertSplit            white             black
 Visual               none              brightblack
