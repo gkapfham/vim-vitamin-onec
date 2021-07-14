@@ -341,5 +341,8 @@ LspDiagnosticsVirtualTextHint -> String
 LspCodeLens -> String
 
 LspDiagnosticsFloatingError -> Pmenu
+LspDiagnosticsFloatingWarning -> Pmenu
+LspDiagnosticsFloatingInformation -> Pmenu
+LspDiagnosticsFloatingHint -> Pmenu
 
 ; }}}
