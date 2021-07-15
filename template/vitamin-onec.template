@@ -342,7 +342,7 @@ LspDiagnosticsVirtualTextInformation -> String
 
 LspDiagnosticsDefaultHint -> String
 LspDiagnosticsVirtualTextHint -> String
-LspCodeLens -> String
+LspCodeLens -> Pmenu
 
 LspDiagnosticsFloatingError -> Pmenu
 LspDiagnosticsFloatingWarning -> Pmenu
