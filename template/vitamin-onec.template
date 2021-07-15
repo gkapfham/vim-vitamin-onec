@@ -348,6 +348,6 @@ LspDiagnosticsFloatingError -> Pmenu
 LspDiagnosticsFloatingWarning -> Pmenu
 LspDiagnosticsFloatingInformation -> Pmenu
 LspDiagnosticsFloatingHint -> Pmenu
-LspSignatureActiveParameter none none bold
+LspSignatureActiveParameter -> Pmenu
 
 ; }}}
