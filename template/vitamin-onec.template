@@ -355,5 +355,8 @@ LspSignatureActiveParameter -> Pmenu
 ; Lightspeed {{{
 
 LightspeedLabel -> Type
+LightspeedLabelOverlapped -> Todo
+LightspeedLabelDistant -> Function
+LightspeedLabelDistantOverlapped  green none bold,underline
 
 ;  }}}
