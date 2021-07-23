@@ -354,11 +354,14 @@ LspSignatureActiveParameter -> Pmenu
 
 ; Lightspeed {{{
 
-LightspeedLabel -> Type
+; LightspeedLabel -> Type
+LightspeedLabel brightyellow none bold
 LightspeedLabelOverlapped -> Todo
-LightspeedLabelDistant -> Function
+
+LightspeedLabelDistant green none bold
 LightspeedLabelDistantOverlapped green none bold,underline
-LightspeedShortcut -> String
+
+LightspeedShortcut yellow none bold
 LightspeedShortcutOverlapped yellow none bold,underline
 
 LightspeedOneCharMatch -> Type
