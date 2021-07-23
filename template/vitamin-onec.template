@@ -101,7 +101,7 @@ DiffText             green             brightwhite       bold,reverse
 Directory            green             none
 EndOfBuffer          brightblack       none
 ErrorMsg             red               black
-Folded               brightwhite       none              italic
+Folded               white             none              italic
 IncSearch            none              none              reverse
 MatchParen           brightblack       brightyellow      bold
 ModeMsg              yellow            none
