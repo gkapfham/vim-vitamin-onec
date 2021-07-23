@@ -364,7 +364,7 @@ LightspeedLabelDistantOverlapped green none bold,underline
 LightspeedShortcut yellow none bold
 LightspeedShortcutOverlapped yellow none bold,underline
 
-LightspeedOneCharMatch -> Type
+LightspeedOneCharMatch brightyellow none bold
 
 
 ;  }}}
