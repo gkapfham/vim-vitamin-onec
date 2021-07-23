@@ -357,6 +357,11 @@ LspSignatureActiveParameter -> Pmenu
 LightspeedLabel -> Type
 LightspeedLabelOverlapped -> Todo
 LightspeedLabelDistant -> Function
-LightspeedLabelDistantOverlapped  green none bold,underline
+LightspeedLabelDistantOverlapped green none bold,underline
+LightspeedShortcut -> String
+LightspeedShortcutOverlapped yellow none bold,underline
+
+LightspeedOneCharMatch -> Type
+
 
 ;  }}}
