@@ -364,6 +364,12 @@ LightspeedLabelDistantOverlapped green none bold,underline
 LightspeedShortcut yellow none bold
 LightspeedShortcutOverlapped yellow none bold,underline
 
+LightspeedShortcut magenta none bold
+LightspeeddShortutOverlapped magenta none bold,underline
+
+LightspeedMaskedChar cyan none bold
+LightspeedUnlabeledMatch cyan none bold,underline
+
 LightspeedOneCharMatch brightyellow none bold
 
 
