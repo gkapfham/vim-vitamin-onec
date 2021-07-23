@@ -101,7 +101,7 @@ DiffText             green             brightwhite       bold,reverse
 Directory            green             none
 EndOfBuffer          brightblack       none
 ErrorMsg             red               black
-Folded               brightwhite       brightblack       italic
+Folded               brightwhite       none              italic
 IncSearch            none              none              reverse
 MatchParen           brightblack       brightyellow      bold
 ModeMsg              yellow            none
@@ -354,7 +354,6 @@ LspSignatureActiveParameter -> Pmenu
 
 ; Lightspeed {{{
 
-; LightspeedLabel -> Type
 LightspeedLabel brightyellow none bold
 LightspeedLabelOverlapped -> Todo
 
