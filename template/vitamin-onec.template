@@ -351,3 +351,9 @@ LspDiagnosticsFloatingHint -> Pmenu
 LspSignatureActiveParameter -> Pmenu
 
 ; }}}
+
+; Lightspeed {{{
+
+LightspeedLabel -> Type
+
+;  }}}
