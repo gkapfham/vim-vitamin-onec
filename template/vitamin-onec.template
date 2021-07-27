@@ -354,22 +354,22 @@ LspSignatureActiveParameter -> Pmenu
 
 ; Lightspeed {{{
 
-LightspeedLabel brightyellow none bold
+LightspeedLabel brightyellow none bold,underline
 LightspeedLabelOverlapped -> Todo
 
 LightspeedLabelDistant green none bold
-LightspeedLabelDistantOverlapped green none bold,underline
+LightspeedLabelDistantOverlapped green none bold,italic
 
-LightspeedShortcut yellow none bold
-LightspeedShortcutOverlapped yellow none bold,underline
+LightspeedShortcut yellow none bold,underline
+LightspeedShortcutOverlapped yellow none bold,italic
 
-LightspeedShortcut magenta none bold
-LightspeeddShortcutOverlapped magenta none bold,underline
+LightspeedShortcut magenta none bold,underline
+LightspeeddShortcutOverlapped magenta none bold,italic
 
-LightspeedMaskedChar cyan none bold
-LightspeedUnlabeledMatch cyan none bold,underline
+LightspeedMaskedChar cyan none bold,underline
+LightspeedUnlabeledMatch cyan none bold,italic
 
-LightspeedOneCharMatch brightyellow none bold
+LightspeedOneCharMatch brightyellow none bold,underline
 
 LightspeedCursor yellow none bold
 
