@@ -367,7 +367,8 @@ LightspeedShortcut magenta none bold,underline
 LightspeeddShortcutOverlapped magenta none bold,italic
 
 LightspeedMaskedChar cyan none bold
-LightspeedUnlabeledMatch cyan none bold,underline
+
+LightspeedUnlabeledMatch red none bold,italic
 
 LightspeedOneCharMatch brightyellow none bold,underline
 
