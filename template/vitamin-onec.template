@@ -129,7 +129,7 @@ VertSplit            white             black
 Visual               none              brightblack
 VisualNOS            brightwhite       blue
 WarningMsg           red               none
-WildMenu             magenta           black
+WildMenu             yellow            black
 Boolean              brightgreen       none
 Character            yellow            none
 Comment              white             none              italic
