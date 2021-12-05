@@ -327,9 +327,24 @@ vimUsrCmd blue none
 
 ; LSP Highlighting {{{
 
+DiagnosticError -> ErrorMsg
+DiagnosticWarn -> Conceal
+DiagnosticInfo -> String
+DiagnosticHint -> String
+
+DiagnosticUnderlineError -> ErrorMsg
+DiagnosticUnderlineWarn -> Conceal
+DiagnosticUnderlineInfo -> String
+DiagnosticUnderlineHint -> String
+
 LspReferenceText -> Pmenu
 LspReferenceRead -> Pmenu
 LspReferenceWrite -> Pmenu
+
+LspDiagnosticsError -> ErrorMsg
+LspDiagnosticsWarning -> Conceal
+LspDiagnosticsInformation -> String
+LspDiagnosticsHint -> String
 
 LspDiagnosticsDefaultError -> ErrorMsg
 LspDiagnosticsVirtualTextError -> ErrorMsg
