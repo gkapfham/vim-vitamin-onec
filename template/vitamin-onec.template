@@ -342,13 +342,13 @@ LspReferenceText -> Pmenu
 LspReferenceRead -> Pmenu
 LspReferenceWrite -> Pmenu
 
-LspDiagnosticsError -> ErrorMsgMenu
+LspDiagnosticsError -> Pmenu
 LspDiagnosticsWarning -> Conceal
 LspDiagnosticsInformation -> String
 LspDiagnosticsHint -> String
 
-LspDiagnosticsDefaultError -> ErrorMsgMenu
-LspDiagnosticsVirtualTextError -> ErrorMsgMenu
+LspDiagnosticsDefaultError -> Pmenu
+LspDiagnosticsVirtualTextError -> Pmenu
 
 LspDiagnosticsDefaultWarning -> Conceal
 LspDiagnosticsVirtualTextWarning -> Conceal
