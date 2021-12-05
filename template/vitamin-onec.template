@@ -101,6 +101,7 @@ DiffText             green             brightwhite       bold,reverse
 Directory            green             none
 EndOfBuffer          brightblack       none
 ErrorMsg             red               black
+ErrorMsgMenu         red               none
 Folded               white             none              italic
 IncSearch            none              none              reverse
 MatchParen           brightblack       brightyellow      bold
@@ -341,7 +342,7 @@ LspReferenceText -> Pmenu
 LspReferenceRead -> Pmenu
 LspReferenceWrite -> Pmenu
 
-LspDiagnosticsError -> ErrorMsg
+LspDiagnosticsError -> ErrorMsgMenu
 LspDiagnosticsWarning -> Conceal
 LspDiagnosticsInformation -> String
 LspDiagnosticsHint -> String
