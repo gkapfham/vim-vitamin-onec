@@ -347,8 +347,8 @@ LspDiagnosticsWarning -> Conceal
 LspDiagnosticsInformation -> String
 LspDiagnosticsHint -> String
 
-LspDiagnosticsDefaultError -> ErrorMsg
-LspDiagnosticsVirtualTextError -> ErrorMsg
+LspDiagnosticsDefaultError -> ErrorMsgMenu
+LspDiagnosticsVirtualTextError -> ErrorMsgMenu
 
 LspDiagnosticsDefaultWarning -> Conceal
 LspDiagnosticsVirtualTextWarning -> Conceal
