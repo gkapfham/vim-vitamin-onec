@@ -100,8 +100,7 @@ DiffDelete           red               black             bold
 DiffText             green             brightwhite       bold,reverse
 Directory            green             none
 EndOfBuffer          brightblack       none
-ErrorMsg             red               black
-ErrorMsgMenu         red               none
+ErrorMsg             red               none
 Folded               white             none              italic
 IncSearch            none              none              reverse
 MatchParen           brightblack       brightyellow      bold
@@ -342,13 +341,13 @@ LspReferenceText -> Pmenu
 LspReferenceRead -> Pmenu
 LspReferenceWrite -> Pmenu
 
-LspDiagnosticsError -> Pmenu
+LspDiagnosticsError -> ErrorMsg
 LspDiagnosticsWarning -> Conceal
 LspDiagnosticsInformation -> String
 LspDiagnosticsHint -> String
 
-LspDiagnosticsDefaultError -> Pmenu
-LspDiagnosticsVirtualTextError -> Pmenu
+LspDiagnosticsDefaultError -> ErrorMsg
+LspDiagnosticsVirtualTextError -> ErrorMsg
 
 LspDiagnosticsDefaultWarning -> Conceal
 LspDiagnosticsVirtualTextWarning -> Conceal
