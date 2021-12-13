@@ -387,7 +387,7 @@ LightspeedShortcut yellow none bold,italic
 LightspeedShortcutOverlapped yellow none bold,underline
 
 LightspeedShortcut magenta none bold,italic
-LightspeeddShortcutOverlapped magenta none bold,underline
+LightspeedShortcutOverlapped magenta none bold,underline
 
 LightspeedMaskedChar cyan none bold
 
