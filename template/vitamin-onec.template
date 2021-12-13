@@ -235,6 +235,14 @@ markdownLinkText yellow none underline
 
 ; }}}
 
+; Marks.nvim Highlighting {{{
+
+MarkSignHL          brightyellow      black             bold
+MarkSignNumHL       brightyellow      black             bold
+MarkVirtTextHL      yellow            black             bold
+
+; }}}
+
 ; Semshi Highlighting for Python {{{
 
 semshiLocal           red              none
