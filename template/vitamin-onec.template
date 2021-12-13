@@ -238,6 +238,7 @@ markdownLinkText yellow none underline
 ; Marks.nvim Highlighting {{{
 
 MarkSignHL          brightyellow      black             bold
+MarkSignNumHL       white             none
 MarkVirtTextHL      yellow            black             bold
 
 ; }}}
