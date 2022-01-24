@@ -397,4 +397,6 @@ LightspeedOneCharMatch brightyellow none bold,italic,underline
 
 LightspeedCursor yellow none bold, italic
 
+LightspeedGreywash none none
+
 ;  }}}
