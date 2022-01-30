@@ -56,7 +56,6 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Normal guifg=#a8a8a8 guibg=NONE gui=NONE cterm=NONE
   hi CursorLineNr guifg=#5f8700 guibg=NONE gui=NONE cterm=NONE
   hi FoldColumn guifg=#767676 guibg=NONE gui=NONE cterm=NONE
-  hi LineNr guifg=#767676 guibg=NONE gui=NONE cterm=NONE
   hi Terminal guifg=#a8a8a8 guibg=NONE gui=NONE cterm=NONE
   hi ColorColumn guifg=NONE guibg=#303030 gui=NONE cterm=NONE
   hi Conceal guifg=#d78700 guibg=NONE gui=NONE cterm=NONE
@@ -267,7 +266,6 @@ if s:t_Co >= 256
   hi Normal ctermfg=248 ctermbg=NONE cterm=NONE
   hi CursorLineNr ctermfg=64 ctermbg=NONE cterm=NONE
   hi FoldColumn ctermfg=243 ctermbg=NONE cterm=NONE
-  hi LineNr ctermfg=243 ctermbg=NONE cterm=NONE
   hi Terminal ctermfg=248 ctermbg=NONE cterm=NONE
   hi ColorColumn ctermfg=NONE ctermbg=236 cterm=NONE
   hi Conceal ctermfg=172 ctermbg=NONE cterm=NONE
