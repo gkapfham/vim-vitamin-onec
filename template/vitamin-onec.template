@@ -403,6 +403,6 @@ LightspeedGreywash none none
 
 ; nvim-cmp {{{
 
-CmpItemKind white none
+CmpItemKind brightwhite none
 
 ;  }}}
