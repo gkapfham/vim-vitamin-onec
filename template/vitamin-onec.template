@@ -401,8 +401,8 @@ LightspeedGreywash none none
 
 ;  }}}
 
-; Lightspeed {{{
+; nvim-cmp {{{
 
-CmpItemKind none none
+CmpItemKind white none
 
 ;  }}}
