@@ -400,3 +400,9 @@ LightspeedCursor yellow none bold, italic
 LightspeedGreywash none none
 
 ;  }}}
+
+; Lightspeed {{{
+
+CmpItemKind none none
+
+;  }}}
