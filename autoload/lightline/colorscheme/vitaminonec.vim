@@ -35,7 +35,7 @@ let s:p.visual.left     = [ [ s:bg, s:purple, 'bold' ], [ s:fg, s:gray2 ] ]
 " Common definitions
 let s:p.normal.right   = [ [ s:bg, s:blue, 'bold'], [ s:bg, s:blue, 'bold'] ]
 let s:p.normal.error   = [ [ s:red2,   s:bg ] ]
-let s:p.normal.warning = [ [ s:blue, 'bold', s:bg ] ]
+let s:p.normal.warning = [ [ s:blue, s:bg, 'bold' ] ]
 let s:p.insert.right   = [ [ s:bg, s:yellow, 'bold' ], [ s:bg, s:yellow, 'bold' ] ]
 let s:p.replace.right  = [ [ s:bg, s:red1, 'bold' ], [ s:bg, s:red1, 'bold' ] ]
 let s:p.visual.right   = [ [ s:bg, s:purple, 'bold' ], [ s:bg, s:purple, 'bold' ] ]
