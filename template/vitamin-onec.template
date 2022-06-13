@@ -409,7 +409,8 @@ CmpItemKind brightwhite none
 
 ; Terminal Cursor {{{
 
-TermCursor        -> CursorIM
-TermCursorNC         none brightwhite reverse
+; TermCursor        -> CursorIM
+TermCursor           none white
+TermCursorNC         none white underline
 
 ;  }}}
