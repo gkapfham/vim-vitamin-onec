@@ -406,3 +406,10 @@ LightspeedGreywash none none
 CmpItemKind brightwhite none
 
 ;  }}}
+
+; Terminal Cursor {{{
+
+TermCursor        -> CursorIM
+TermCursorNC         none brightwhite reverse
+
+;  }}}
