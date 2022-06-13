@@ -411,6 +411,6 @@ CmpItemKind brightwhite none
 
 ; TermCursor        -> CursorIM
 TermCursor           none white
-TermCursorNC         white none underline
+TermCursorNC         none none
 
 ;  }}}
