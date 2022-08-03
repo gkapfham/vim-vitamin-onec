@@ -417,6 +417,6 @@ TermCursorNC         none none
 
 ; Treesitter Context {{{
 
-TreesitterContext none none bold
+TreesitterContext none none
 
 ;  }}}
