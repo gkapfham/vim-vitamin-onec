@@ -395,7 +395,7 @@ LightspeedUnlabeledMatch red none bold,italic
 
 LightspeedOneCharMatch brightyellow none bold,italic,underline
 
-LightspeedCursor yellow none bold, italic
+LightspeedCursor yellow none bold,italic
 
 LightspeedGreywash none none
 
@@ -412,5 +412,11 @@ CmpItemKind brightwhite none
 ; TermCursor        -> CursorIM
 TermCursor           none white
 TermCursorNC         none none
+
+;  }}}
+
+; Treesitter Context {{{
+
+TreesitterContext none none bold
 
 ;  }}}
