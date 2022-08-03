@@ -420,3 +420,9 @@ TermCursorNC         none none
 TreesitterContext none black
 
 ;  }}}
+
+; Winbar {{{
+
+WinBar none none
+
+;  }}}
