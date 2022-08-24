@@ -1,5 +1,11 @@
 ; vim: ft=colortemplate
 
+; Debugging {{{
+
+; let s:t_Co = exists('&t_Co') && !empty(&t_Co) && &t_Co >= 0 ? &t_Co : -1
+
+; }}}
+
 ; Information {{{
 
 Full name:   Vitamin-Onec
@@ -403,10 +409,10 @@ LightspeedGreywash none none
 
 ; leap.nvim {{{
 
-LeapMatch yellow none bold,italic,underline
-LeapLabelPrimary brightyellow none bold,italic,underline
-LeapLabelSecondary green none bold,italic,underline
-LeapLabelSelected red none bold,italic,underline
+LeapMatch yellow none bold,italic
+LeapLabelPrimary brightyellow none bold,italic
+LeapLabelSecondary green none bold,italic
+LeapLabelSelected red none bold,italic
 
 ;  }}}
 
