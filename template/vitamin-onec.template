@@ -401,6 +401,15 @@ LightspeedGreywash none none
 
 ;  }}}
 
+; leap.nvim {{{
+
+LeapMatch yellow none bold,italic,underline
+LeapLabelPrimary brightyellow none bold,italic,underline
+LeapLabelSecondary green none bold,italic,underline
+LeapLabelSelected red none bold,italic,underline
+
+;  }}}
+
 ; nvim-cmp {{{
 
 CmpItemKind brightwhite none
