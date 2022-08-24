@@ -96,7 +96,7 @@ Variant: gui 256 8
 ; Group              Foreground        Background        Attributes
 
 ColorColumn          none              brightblack
-Conceal              brightyellow      none
+Conceal              brightyellow      none              bold
 Cursor               yellow            none
 CursorColumn         none              brightblack
 CursorLine           none              brightblack
