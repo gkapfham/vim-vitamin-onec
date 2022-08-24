@@ -409,7 +409,7 @@ LightspeedGreywash none none
 
 ; leap.nvim {{{
 
-LeapMatch yellow none bold,italic
+LeapMatch brightyellow none bold,italic
 LeapLabelPrimary brightyellow none bold,italic
 LeapLabelSecondary green none bold,italic
 LeapLabelSelected red none bold,italic
