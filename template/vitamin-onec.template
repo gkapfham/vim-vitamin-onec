@@ -265,6 +265,12 @@ semshiSelected        none             none              underline,bold
 
 ; }}}
 
+; Additional Highlighting for Python {{{
+
+pythonBuiltin         magenta          none
+
+;  }}}
+
 ; Signature Highlighting {{{
 
 SignatureMarkText    brightyellow      black             bold
