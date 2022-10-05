@@ -147,7 +147,7 @@ Float                blue              none
 Function             green             none
 Identifier           blue              none
 Ignore               brightwhite       none
-Include              red               none
+Include              magenta           none
 Keyword              blue              none
 Label                green             none
 Number               red               none
