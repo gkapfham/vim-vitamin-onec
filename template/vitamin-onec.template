@@ -136,7 +136,7 @@ Visual               none              brightblack
 VisualNOS            brightwhite       blue
 WarningMsg           red               none
 WildMenu             yellow            black
-Boolean              brightgreen       none
+Boolean              magenta           none
 Character            yellow            none
 Comment              white             none              italic
 Constant             red               none
