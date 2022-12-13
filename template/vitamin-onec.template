@@ -446,3 +446,18 @@ TreesitterContext none black
 WinBar none none
 
 ;  }}}
+
+; Neo-Tree {{{
+
+NeoTreeGitAdded    -> Identifier
+NeoTreeGitModified -> Identifier
+NeoTreeGitDeleted  -> Identifier
+NeoTreeGitRenamed  -> Identifier
+
+NeoTreeGitUntracked   -> Character
+NeoTreeGitIgnored     -> Character
+NeoTreeGitUnstaged    -> Character
+NeoTreeGitStaged      -> Character
+NeoTreeGitConflict    -> Character
+
+;  }}}
