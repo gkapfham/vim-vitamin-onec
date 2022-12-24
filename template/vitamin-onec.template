@@ -65,7 +65,7 @@ Color: brightyellow         rgb(215, 135,   0)   172        DarkYellow
 Color: brightblue           rgb(135, 175, 215)   110        DarkBlue
 Color: brightmagenta        rgb(135,  95, 135)   96         DarkMagenta
 Color: brightcyan           rgb(135, 175, 135)   108        DarkCyan
-Color: brightwhite          rgb(188, 188, 188)   250        Gray
+Color: brightwhite          rgb(178, 178, 178)   249        Gray
 
 Term Colors: black red green yellow blue magenta cyan white
 Term Colors: brightblack brightred brightgreen brightyellow
