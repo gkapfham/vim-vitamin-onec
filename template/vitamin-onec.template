@@ -446,7 +446,7 @@ TreesitterContext none black
 
 WinBar none none
 
-;  }}}
+; }}}
 
 ; Neo-Tree {{{
 
@@ -461,4 +461,24 @@ NeoTreeGitUnstaged    -> Character
 NeoTreeGitStaged      -> Character
 NeoTreeGitConflict    -> Character
 
-;  }}}
+; }}}
+
+; Notify {{{
+
+NotifyERRORBorder -> ErrorMsg
+NotifyWARNBorder  -> WarningMsg
+NotifyINFOBorder  -> String
+NotifyDEBUGBorder -> Debug
+NotifyTRACEBorder -> Normal
+NotifyERRORIcon   -> ErrorMsg
+NotifyWARNIcon    -> WarningMsg
+NotifyINFOIcon    -> String
+NotifyDEBUGIcon   -> Debug
+NotifyTRACEIcon   -> Normal
+NotifyERRORTitle  -> ErrorMsg
+NotifyWARNTitle   -> WarningMsg 
+NotifyINFOTitle   -> String 
+NotifyDEBUGTitle  -> Debug 
+NotifyTRACETitle  -> Normal
+
+; }}}
