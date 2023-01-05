@@ -466,17 +466,17 @@ NeoTreeGitConflict    -> Character
 ; Notify {{{
 
 NotifyERRORBorder -> ErrorMsg
-NotifyWARNBorder  -> WarningMsg
+NotifyWARNBorder  -> Conceal
 NotifyINFOBorder  -> String
 NotifyDEBUGBorder -> Debug
 NotifyTRACEBorder -> Normal
 NotifyERRORIcon   -> ErrorMsg
-NotifyWARNIcon    -> WarningMsg
+NotifyWARNIcon    -> Conceal
 NotifyINFOIcon    -> String
 NotifyDEBUGIcon   -> Debug
 NotifyTRACEIcon   -> Normal
 NotifyERRORTitle  -> ErrorMsg
-NotifyWARNTitle   -> WarningMsg 
+NotifyWARNTitle   -> Conceal
 NotifyINFOTitle   -> String 
 NotifyDEBUGTitle  -> Debug 
 NotifyTRACETitle  -> Normal
