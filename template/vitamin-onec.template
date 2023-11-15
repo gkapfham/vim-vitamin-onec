@@ -160,6 +160,7 @@ SpecialComment       red               none
 Statement            cyan              none
 StorageClass         brightcyan        none
 String               yellow            none
+String.documentation yellow            none              italic
 Structure            red               none
 Todo                 brightyellow      none              bold,underline
 Type                 brightyellow      none
