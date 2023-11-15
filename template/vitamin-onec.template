@@ -139,7 +139,7 @@ WarningMsg           red               none
 WildMenu             yellow            black
 Boolean              magenta           none
 Character            yellow            none
-Comment              white             none              italic
+Comment              white             none
 Constant             red               none
 Debug                magenta           none
 Delimiter            none              none
